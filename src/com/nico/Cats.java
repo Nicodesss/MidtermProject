@@ -10,13 +10,13 @@ public class Cats {
 
     Cats() {
         Item[] siomaiItems = new Item[2];
-        siomaiItems[0] = new Item("Sharp Nails", 10.5);
+        siomaiItems[0] = new Item("Sharp Nails", 0);
         siomaiItems[1] = new Item("Half rotten apple", 0.0);
         Cat siomai = new Cat("Siomai", "The Sneaky Mingming", 8, "breaking in", siomaiItems);
         cats[0] = siomai;
         Item[] siopaoItems = new Item[2];
-        siopaoItems[0] = new Item("Huge Paws", 20.0);
-        siopaoItems[1] = new Item("Injured Paw", 0.5);
+        siopaoItems[0] = new Item("Huge Paws", 0);
+        siopaoItems[1] = new Item("Injured Paw", 0);
         Cat siopao = new Cat("Siopao", "The Chonki Mingming", 12, "knocking out", siopaoItems);
         cats[1] = siopao;
     }

@@ -8,8 +8,8 @@ public class Dogs {
 
     Dogs() {
         Item[] brownyItems = new Item[2];
-        brownyItems[0] = new Item("Menacing Huge Paws", 500.0);
-        brownyItems[1] = new Item("Bark", 10.0);
+        brownyItems[0] = new Item("Menacing Huge Paws", 0);
+        brownyItems[1] = new Item("Bark", 0);
         Dog browny = new Dog("Browny", "Askal", 15, "guarding", brownyItems);
         dogs = browny;
     }
