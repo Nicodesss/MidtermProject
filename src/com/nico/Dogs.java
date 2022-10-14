@@ -19,14 +19,15 @@ public class Dogs {
             System.out.println(dogs.getName() + " managed to catch the cats");
             if (gang.getSumRobbedValue() > 0) {
                 System.out.println("The stolen items are recovered.");
-                System.out.println("Their overall value is estimated to $" + gang.getSumRobbedValue());
+                System.out.println();
+                System.out.println("Cats overall items stolen value is ₱" + gang.getSumRobbedValue());
             } else {
                 System.out.println("The cats couldn't steal anything.");
             }
             return true;
         } else {
             System.out.println(dogs.getName() + " couldn't catch the cats.");
-            System.out.println("They managed to steal items valued $" + gang.getSumRobbedValue());
+            System.out.println("They managed to steal items valued ₱" + gang.getSumRobbedValue());
             return false;
         }
     }

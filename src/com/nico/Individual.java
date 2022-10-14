@@ -19,7 +19,7 @@ public abstract class Individual {
         System.out.println("Name: " + name + " (" + nickname + ")");
         System.out.println("Cat age: " + age);
         System.out.println("Expert in: " + expertIn);
-        System.out.println("The cat has the following items:");
+        System.out.println("Abilities:");
         for (Item item : items) {
             System.out.println("-" + item.getName());
         }
@@ -28,7 +28,7 @@ public abstract class Individual {
         System.out.println("Name: " + name + " (" + nickname + ")");
         System.out.println("Dog age: " + age);
         System.out.println("Expert in: " + expertIn);
-        System.out.println("Browny has the following items:");
+        System.out.println("Abilities:");
         for (Item item : items) {
             System.out.println("-" + item.getName());
         }
