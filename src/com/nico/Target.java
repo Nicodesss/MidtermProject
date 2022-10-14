@@ -27,7 +27,7 @@ public class Target {
 
     }
 
-    public House[] getBuildings() {
+    public House[] getHouses() {
         return houses;
     }
 }

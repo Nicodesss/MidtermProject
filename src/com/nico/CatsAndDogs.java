@@ -11,7 +11,7 @@ public class CatsAndDogs {
         dogs.printDogData();
 
         do {
-            cats.letsRob(target.getBuildings());
+            cats.letsRob(target.getHouses());
         } while (!dogs.catchCats(cats));
     }
 }
