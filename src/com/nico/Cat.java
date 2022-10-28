@@ -2,7 +2,7 @@ package com.nico;
 
 public class Cat extends Individual {
 
-    public static final int SUCCESS_PERCENTAGE = 90;
+    public static final int SUCCESS_PERCENTAGE = 50;
 
     public Cat(String name, String nickname, int age, String expertIn, Item[] items) {
         super(name, nickname, age, expertIn, items);

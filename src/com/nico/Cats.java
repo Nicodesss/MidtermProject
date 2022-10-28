@@ -8,10 +8,10 @@ public class Cats {
     private Random randomNumberGenerator = new Random();
     private double sumRobbedValue;
 
-    Cats() {
+    public Cats() {
         Item[] siomaiItems = new Item[2];
         siomaiItems[0] = new Item("Sharp Nails", 0);
-        siomaiItems[1] = new Item("Half rotten apple", 0.0);
+        siomaiItems[1] = new Item("Meow", 0.0);
         Cat siomai = new Cat("Siomai", "The Sneaky Mingming", 8, "breaking in", siomaiItems);
         cats[0] = siomai;
         Item[] siopaoItems = new Item[2];

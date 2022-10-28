@@ -1,7 +1,6 @@
 package com.nico;
 
 public class CatsAndDogs {
-
     public static void main(String[] args) {
         Target target = new Target();
         Cats cats = new Cats();
@@ -9,9 +8,8 @@ public class CatsAndDogs {
 
         cats.printCatsInfo();
         dogs.printDogData();
-
         do {
-            cats.letsRob(target.getHouses());
+            cats.letsRob(target.getHouse());
         } while (!dogs.catchCats(cats));
     }
 }
